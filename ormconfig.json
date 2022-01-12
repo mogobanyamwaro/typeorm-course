@@ -1,0 +1,11 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "fleetdev",
+  "password": "1234",
+  "database": "fleetdb",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true,
+  "keepConnectionAlive": true
+}
